@@ -30,7 +30,8 @@ class HomeController extends Controller
         return view('pages.contact');
     }
     public function submission(){
-        return view('pages.submission');
+        $types = ['Review','Other'];
+        return view('pages.submission', compact('types'));
     }
 
     public function postImage(Request $request){

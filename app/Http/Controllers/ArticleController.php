@@ -48,11 +48,11 @@ class ArticleController extends Controller
         if ($files = $request->file('article')) {
             $data['article'] = $this->moveFile($folder,$files);
         }
-        if ($files = $request->file('article_2')) {
-            $data['article_2'] = $this->moveFile($folder,$files);
+        if ($file_2 = $request->file('article_2')) {
+            $data['article_2'] = $this->moveFile($folder,$file_2);
         }
-        if ($files = $request->file('article_2')) {
-            $data['article_3'] = $this->moveFile($folder,$files);
+        if ($file_3 = $request->file('article_3')) {
+            $data['article_3'] = $this->moveFile($folder,$file_3);
         }
         Article::create($data);
         return redirect()->back()->with('success', 'Article successfully submitted, you will be notified once approved.');
@@ -71,7 +71,7 @@ class ArticleController extends Controller
         }
         $file = date('YmdHis') . "." . $files->getClientOriginalExtension();
         $files->move($folder, $file);
-        return $file;
+        return $folder.$file;
     }
 
     protected function getData(Request $request)

@@ -29,9 +29,15 @@
                                             <td class="text-capitalize">
                                                {{ str_replace('_',' ',$item) }}
                                             </td>
-                                            <td class="text-capitalize">
-                                                {{ $article[$item] }}
+                                            @if (in_array($item,['article','article_2','article_3']))
+                                            <td class="">
+                                                    <a href="{{ env('APP_URL').'/'.$article[$item] }}"> {{ $article[$item] }}</a>
                                             </td>
+                                            @else
+                                                <td class="text-capitalize">
+                                                {{ $article[$item] }}
+                                                </td>
+                                            @endif
                                         </tr>
                                     @endforeach
                                     </tbody>

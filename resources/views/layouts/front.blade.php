@@ -9,7 +9,7 @@
 <div id="app">
 
     <!-- ########## START: LEFT PANEL ########## -->
-    <div class="br-logo"><a href="#"><span>[</span>DeltaInstitute<span>]</span></a></div>
+    <div class="br-logo"><a href="#"><span>[</span>JOSTED<span>]</span></a></div>
 
 @include('layouts.partials.sideleft')
 

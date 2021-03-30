@@ -34,6 +34,7 @@
                                         <th>Date Submitted</th>
 {{--                                        <th></th>--}}
                                         <th></th>
+                                        <th></th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -59,6 +60,7 @@
                                             @else
                                                 <td class="pd-r-0-force tx-center"><a href="{{ route('admin.article.approve',$item->id) }}" class="btn btn-outline-info btn-oblong">Approve</a></td>
                                             @endif
+                                            <td><a href="{{ route('admin.article.view',$item->id) }}" class="btn btn-outline-info btn-oblong">View Article</a></td>
                                         </tr>
                                     @endforeach
                                     </tbody>

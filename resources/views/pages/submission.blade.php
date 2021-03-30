@@ -85,22 +85,16 @@
                         <div class="form-group">
                             <label for="article_type">Type of Article *</label>
                             <select class="form-control" name="article_type" id="article_type">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
+                                @foreach($types as $item)
+                                    <option value="{{ $item }}">{{ $item }}</option>
+                                @endforeach
                             </select>
+
                         </div>
                         <div class="form-group">
                             <label for="subject_area">Journal / Subject Area (with country) *</label>
-                            <select class="form-control" name="subject_area" id="subject_area">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+
+                            <select class="form-control" name="subject_area" id="subject_area"><option value="International Journal of Advanced Academic Research - Nigeria">International Journal of Advanced Academic Research - Nigeria</option><option value="African Journal of Sustainable Agricultural Development – Nigeria">African Journal of Sustainable Agricultural Development – Nigeria</option><option value="African Journal of Business and Economic Development – Nigeria">African Journal of Business and Economic Development – Nigeria</option><option value="International Journal of Research in Education and Sustainable Development – Nigeria">International Journal of Research in Education and Sustainable Development – Nigeria</option><option value="Research Journal of Management Practice – Nigeria">Research Journal of Management Practice – Nigeria</option><option value="European Journal of Business and Management">European Journal of Business and Management</option><option value="British Journal of Humanities and Social Sciences">British Journal of Humanities and Social Sciences</option><option value="Journal of Finance and Accounting Research – U.S.A">Journal of Finance and Accounting Research – U.S.A</option><option value="Journal of Tourism and Hospitality – U.S.A">Journal of Tourism and Hospitality – U.S.A</option><option value="Journal of Education – U.S.A">Journal of Education – U.S.A</option><option value="Journal of Humanities and Social Sciences – U.S.A">Journal of Humanities and Social Sciences – U.S.A</option><option value="Journal of Philosophy – U.S.A">Journal of Philosophy – U.S.A</option><option value="Journal of Law – U.S.A">Journal of Law – U.S.A</option><option value="Journal of Civil and Environmental Research – U.S.A">Journal of Civil and Environmental Research – U.S.A</option><option value="Journal of Agriculture – U.S.A">Journal of Agriculture – U.S.A</option><option value="Journal of Computer Engineering and Intelligent Systems – U.S.A">Journal of Computer Engineering and Intelligent Systems – U.S.A</option></select>
                         </div>
                         <div class="form-group">
                             <label>Upload Article * (Allowed file types: .Doc, .Docx - i.e. MsWord Docs)</label>

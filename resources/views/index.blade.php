@@ -26,6 +26,9 @@
                     <li><a href="/editorial">Editorial</a></li>
                     <li><a href="/submission">Paper Submission</a></li>
                     <li><a href="/contact">Contact Us</a></li>
+                    @guest()
+                    <li><a href="/login">Login</a></li>
+                    @endguest
                 </ul>
             </div>
         </div>
