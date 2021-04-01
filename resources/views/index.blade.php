@@ -23,11 +23,11 @@
             <div id="menu">
                 <ul>
                     <li class="current_page_item"><a href="#">HOMEPAGE</a></li>
-                    <li><a href="/editorial">Editorial</a></li>
-                    <li><a href="/submission">Paper Submission</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
+                    <li><a href="{{ route('editorial') }}">Editorial</a></li>
+                    <li><a href="{{ route('submission') }}">Paper Submission</a></li>
+                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                     @guest()
-                    <li><a href="/login">Login</a></li>
+                    <li><a href="{{ route('login') }}">Login</a></li>
                     @endguest
                 </ul>
             </div>

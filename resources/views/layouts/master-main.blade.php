@@ -11,27 +11,27 @@
 
     <!-- ** Plugins Needed for the Project ** -->
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('plugins/bootstrap/bootstrap.min.css') }}">
     <!-- slick slider -->
-    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="{{ asset('plugins/slick/slick.css') }}">
     <!-- themefy-icon -->
-    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="{{ asset('plugins/themify-icons/themify-icons.css') }}">
     <!-- animation css -->
-    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <link rel="stylesheet" href="{{ asset('plugins/animate/animate.css') }}">
     <!-- aos -->
-    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link rel="stylesheet" href="{{ asset('plugins/aos/aos.css') }}">
     <!-- venobox popup -->
-    <link rel="stylesheet" href="plugins/venobox/venobox.css">
+    <link rel="stylesheet" href="{{ asset('plugins/venobox/venobox.css') }}">
 
     <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
 
     <style>
         .form-group label {
@@ -48,7 +48,7 @@
 <!-- preloader start -->
 <div id="app">
 <div class="preloader">
-    <img src="images/preloader.gif" alt="preloader">
+    <img src="{{ asset('images/preloader.gif') }}" alt="preloader">
 </div>
 <!-- preloader end -->
 
@@ -69,12 +69,12 @@
                 </div>
                 <div class="col-lg-8 text-center text-lg-right">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="/">HOMEPAGE</a></li>
-                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="/editorial">EDITORIAL</a></li>
-                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="/submission">PAPER SUBMISSION</a></li>
-                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="/contact">CONTACT US</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="{{ route('index') }}">HOMEPAGE</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="{{ route('editorial') }}">EDITORIAL</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="{{ route('submission') }}">PAPER SUBMISSION</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="{{ route('contact') }}">CONTACT US</a></li>
                         @auth()
-                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="/admin/dashboard">Dashboard</a></li>
+                        <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="{{ route('admin.dashboard') }}">Dashboard</a></li>
                         @endauth
                         <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal"></a></li>
                     </ul>
