@@ -101,12 +101,12 @@
                             <input required type="file" class="form-control" name="article" id="file">
                         </div>
                         <div class="form-group">
-                            <label>Upload 2nd Article - if any (Allowed file types: .Doc, .Docx - i.e. MsWord Docs)</label>
+                            <label>Upload 2nd Article - if any (Allowed file types: .Doc, PDF, .Docx - i.e. MsWord Docs)</label>
                             <input  type="file" class="form-control" name="article_2" id="file">
 
                         </div>
                         <div class="form-group">
-                            <label>Upload 3rd Article - if any (Allowed file types: .Doc, .Docx - i.e. MsWord Docs)</label>
+                            <label>Upload 3rd Article - if any (Allowed file types: .Doc, PDF, .Docx - i.e. MsWord Docs)</label>
                             <input  type="file" class="form-control" name="article_3" id="file">
                         </div>
 
