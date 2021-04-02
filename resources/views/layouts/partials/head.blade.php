@@ -29,7 +29,7 @@
     {{--    <meta name="author" content="ThemePixels">--}}
 
 
-    <title>Delta Institute</title>
+    <title>{{ env('APP_NAME') }}</title>
 
     <!-- vendor css -->
     <link href="{{ asset('font-awesome/css/font-awesome.css') }}" rel="stylesheet">

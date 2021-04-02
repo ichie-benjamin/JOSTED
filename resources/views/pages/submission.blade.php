@@ -97,7 +97,7 @@
                             <select class="form-control" name="subject_area" id="subject_area"><option value="International Journal of Advanced Academic Research - Nigeria">International Journal of Advanced Academic Research - Nigeria</option><option value="African Journal of Sustainable Agricultural Development – Nigeria">African Journal of Sustainable Agricultural Development – Nigeria</option><option value="African Journal of Business and Economic Development – Nigeria">African Journal of Business and Economic Development – Nigeria</option><option value="International Journal of Research in Education and Sustainable Development – Nigeria">International Journal of Research in Education and Sustainable Development – Nigeria</option><option value="Research Journal of Management Practice – Nigeria">Research Journal of Management Practice – Nigeria</option><option value="European Journal of Business and Management">European Journal of Business and Management</option><option value="British Journal of Humanities and Social Sciences">British Journal of Humanities and Social Sciences</option><option value="Journal of Finance and Accounting Research – U.S.A">Journal of Finance and Accounting Research – U.S.A</option><option value="Journal of Tourism and Hospitality – U.S.A">Journal of Tourism and Hospitality – U.S.A</option><option value="Journal of Education – U.S.A">Journal of Education – U.S.A</option><option value="Journal of Humanities and Social Sciences – U.S.A">Journal of Humanities and Social Sciences – U.S.A</option><option value="Journal of Philosophy – U.S.A">Journal of Philosophy – U.S.A</option><option value="Journal of Law – U.S.A">Journal of Law – U.S.A</option><option value="Journal of Civil and Environmental Research – U.S.A">Journal of Civil and Environmental Research – U.S.A</option><option value="Journal of Agriculture – U.S.A">Journal of Agriculture – U.S.A</option><option value="Journal of Computer Engineering and Intelligent Systems – U.S.A">Journal of Computer Engineering and Intelligent Systems – U.S.A</option></select>
                         </div>
                         <div class="form-group">
-                            <label>Upload Article * (Allowed file types: .Doc, .Docx - i.e. MsWord Docs)</label>
+                            <label>Upload Article * (Allowed file types: .Doc, PDF, .Docx - i.e. MsWord Docs)</label>
                             <input required type="file" class="form-control" name="article" id="file">
                         </div>
                         <div class="form-group">
@@ -115,14 +115,15 @@
                         <div class="row mt-2">
                             <div class="col-12">
                                 <p class="text-muted">
-                                    Authors can alternatively send their articles as an email attachment in MsWord format to editor@ijaar.org
+                                    Authors can alternatively send their articles as an email attachment in MsWord format to editor@josted.org, info@josted.org, gts2007students@gmail.com
                                 </p>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div class="col-lg-5">
-                    <p class="mb-5"; style: align="justify"> The Journal of Studies in Education (JOSTED) is an open-access multi-disciplinary peer-reviewed Journal devoted to the publication of original (empirical and theoretical) research papers, critical, up-to-date and concise reviews on all themes related to all aspects of Education...</p>
+                    <p class="mb-5"; style: align="justify"> The Journal of Studies in Education (JOSTED) is an open-access multi-disciplinary peer-reviewed Journal devoted to the publication of original (empirical and theoretical) research papers, critical, up-to-date
+                        and concise reviews on all themes related to all aspects of Education...</p>
                     <a href="tel:+8802057843248" class="text-color h5 d-block">+2348101292500, &nbsp;+2348107969220, <br>+2348037202989, &nbsp; +2348037120137,</a>
                     <a href="mailto:yourmail@email.com" class="mb-5 text-color h5 d-block">info@josted.org</a>
                     <p> P.M.B 2090, College of Education, Agbor, Delta State, Nigeria.</p>

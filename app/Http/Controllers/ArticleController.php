@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Article;
+use App\Notifications\articleVerified;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Notification;
+use Throwable;
 
 class ArticleController extends Controller
 {
@@ -62,6 +65,10 @@ class ArticleController extends Controller
         $article = Article::findOrFail($id);
         $article->approved = true;
         $article->save();
+        try {
+            Notification::route('mail', $article->email)->notify(new articleVerified($article));
+        }catch (Throwable $e) {
+        }
         return redirect()->back()->with('success', 'Article successfully approved and mail sent to uploader at '.$article->email);
     }
 
