@@ -38,7 +38,7 @@ class articleVerified extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->subject($this->article->name ." Approved ")
+            ->subject($this->article->article_title ." Approved ")
             ->greeting("Hello ". $this->article->name. ' your submitted article has been approved by JOSTED')
             ->line('----------------------------------------------------------')
             ->line('Article Details : ')
