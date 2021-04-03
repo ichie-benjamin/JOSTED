@@ -103,7 +103,7 @@
                             <div style="clear: both;">&nbsp;</div>
                         </li>
                         <li>
-                            <a href="information.html"><h2>Information Desk</h2></a>
+                            <a href="/information"><h2>Information Desk</h2></a>
                             <p>Use the Information Desk for upcoming and updated News / Journal Events.</p>
                         </li>
                         <li>
@@ -112,21 +112,21 @@
                                 <li><a href="https://vanguardngr.com">Vanguard Newspaper</a></li>
                                 <li><a href="https://guardian.ng">Guardian Newspaper</a></li>
                                 <li><a href="https://punchng.com">Punch Newspaper</a></li>
-                                <li><a href="www.thepointernewsonline.com">The Pointer</a></li>
-                                <li><a href="www.ikaweekly.com">Ika Weekly</a></li>
-                                <li><a href="www.thisdaylive.com">Thisday Newspaper</a></li>
-                                <li><a href="www.tell.ng">Tell</a></li>
+                                <li><a href="https://thepointernewsonline.com">The Pointer</a></li>
+                                <li><a href="https://ikaweekly.com">Ika Weekly</a></li>
+                                <li><a href="https://thisdaylive.com">Thisday Newspaper</a></li>
+                                <li><a href="https://tell.ng">Tell</a></li>
                             </ul>
                         </li>
                         <li>
                             <h2>Journals Online</h2>
                             <ul>
-                                <li><a href="www.iosrjournals.org">IOSR - Research Education Journal</a></li>
-                                <li><a href="www.scirp.org">Int.Open Access Journals</a></li>
-                                <li><a href="www.journals.elsevier.com">Int. Journal of Educational Research</a></li>
-                                <li><a href="www.ijsr.net">Int.Journal of Science and Research </a></li>
-                                <li><a href="www.journals.sagepub.com ">Int. SAGE Journals</a></li>
-                                <li><a href="www.ijrp.org">Int. Journal of Research Pub.</a></li>
+                                <li><a href="https://iosrjournals.org">IOSR - Research Education Journal</a></li>
+                                <li><a href="https://scirp.org">Int.Open Access Journals</a></li>
+                                <li><a href="https://journals.elsevier.com">Int. Journal of Educational Research</a></li>
+                                <li><a href="https://ijsr.net">Int.Journal of Science and Research </a></li>
+                                <li><a href="https://journals.sagepub.com ">Int. SAGE Journals</a></li>
+                                <li><a href="https://ijrp.org">Int. Journal of Research Pub.</a></li>
                                 <li><a href="https://www.ijaar.org">IJAAR Publishing</a></li>
                             </ul>
                         </li>
@@ -134,11 +134,11 @@
                             <h2>Ebooks Online</h2>
                             <ul>
                                 <li><a href="https://coeagborelibrary.com/">College Elibrary Platform</a></li>
-                                <li><a href="www.scribd.com">Scribd Digital Library</a></li>
-                                <li><a href="www.bookboon.com">Book Boon Digital Library</a></li>
-                                <li><a href="www.ebooks.com">Digital TextBooks Online</a></li>
-                                <li><a href="www.researchgate.com">Research Gate Articles & Books</a></li>
-                                <li><a href="www.springer.com">Springer Open Access Ebooks</a></li>
+                                <li><a href="https://scribd.com">Scribd Digital Library</a></li>
+                                <li><a href="https://bookboon.com">Book Boon Digital Library</a></li>
+                                <li><a href="https://ebooks.com">Digital TextBooks Online</a></li>
+                                <li><a href="https://researchgate.com">Research Gate Articles & Books</a></li>
+                                <li><a href="https://springer.com">Springer Open Access Ebooks</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -151,7 +151,7 @@
     <!-- end #page -->
 </div>
 <div id="footer">
-    <p><b>&copy; 2021 Journal of Studies in Education -&nbsp(JOSTED). &nbsp;All rights reserved. <br><br>Design by </b><b>Kenubia Emmanuel - +234-806-527-9842</b></a>.</p>
+    <p><b>&copy; {{ date('Y') }} Journal of Studies in Education -&nbsp(JOSTED). &nbsp;All rights reserved. <br><br>Design by </b><b>Kenubia Emmanuel - +234-806-527-9842</b></a>.</p>
 </div>
 <!-- end #footer -->
 </body>
